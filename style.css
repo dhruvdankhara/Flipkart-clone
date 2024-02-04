@@ -7,21 +7,29 @@
 
 body {
     background-color: #f1f2f4;
+
+}
+
+.nav-container {
+    display: flex;
+    justify-content: center;
 }
 
 nav {
+    width: 100%;
     background-color: #fff;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    padding: 10px 10px;
+    padding: 12px;
 
 }
 
-form, .login, .cart, .seller{
+form, .cart, .seller{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 form {
@@ -40,6 +48,7 @@ form img {
 
 input {
     width: 33vw;
+    /* height: 40px; */
     font-size: 17px;
     background-color: #fff;
     text-decoration: none;
@@ -52,13 +61,13 @@ input {
 }
 
 .login {
-    width: 8%;
+    width: auto;
     height: 41px;
     padding: 8px;
     display: flex;
-    justify-content: center;
     align-items: center;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .login:hover {
@@ -66,11 +75,32 @@ input {
     color: #fff;
 }
 
-.login img, .cart img, .seller img, .menu{
-    width: 18px;
-    height: 18px;
+.login .user-icon, .cart img, .seller img, .menu{
+    width: 24px;
+    height: 24px;
 }
 
-form img, .login img, .cart img, .seller img {
+.down-arrow {
+    width: 12px;
+    height: 12px;
+    box-shadow: none;
+    text-decoration: none;
+    border: none;
+    margin: 0px 5px;
+}
+
+form img, .login .user-icon, .cart img, .seller img {
     margin-right: 10px;
+}
+
+.menu {
+    cursor: pointer;
+}
+
+.categery {
+    width: 90%;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
