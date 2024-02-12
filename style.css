@@ -391,7 +391,7 @@ footer .footer-1 {
     align-items: flex-start;
     /* gap: 3rem; */
     line-height: 20px;
-    margin-top: 20px;
+    margin: 20px 0px;
 }
 
 footer ul {
@@ -415,9 +415,31 @@ footer ul li img {
     margin: 0px 5px;
 }
 
-footer .box-5{
+footer .footer-1 .box-5{
     border: 1px solid transparent;
     border-left-color: #3c424e;
     padding-left: 40px;
+}
 
+footer .footer-1 .box-5 li,.box-6 li{
+    font-weight: 300;
+}
+
+footer .footer-2 {
+    border-top: 1px solid #3c424e;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer .footer-2 div {
+    margin: 20px 0px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5px;
+    font-weight: 300;
 }
