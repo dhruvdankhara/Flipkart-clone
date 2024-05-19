@@ -6,7 +6,7 @@ Welcome to the Flipkart UI Clone project! This repository contains the code for 
 
 ![Flipkart UI Clone Preview](https://flipkart-dhruv.netlify.app/preview/preview.png)
 
-You can also visit the live website [here](https://flipkart-clone-by-dhruv.netlify.app/).
+You can also visit the live website [here](https://flipkart-dhruv.netlify.app).
 
 ## Description
 
