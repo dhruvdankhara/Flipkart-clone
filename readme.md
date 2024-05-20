@@ -4,9 +4,9 @@ Welcome to the Flipkart UI Clone project! This repository contains the code for 
 
 ## Preview
 
-![Flipkart UI Clone Preview](https://flipkart-dhruv.netlify.app/preview/preview.png)
+![Flipkart UI Clone Preview](https://dhruvdankhara.github.io/Flipkart-clone/preview/preview.png)
 
-You can also visit the live website [here](https://flipkart-dhruv.netlify.app).
+You can also visit the live website [here](https://dhruvdankhara.github.io/Flipkart-clone/).
 
 ## Description
 
@@ -18,13 +18,9 @@ This project aims to recreate the frontend design and layout of Flipkart using H
 
 - Navigation: Mimics the navigation flow of Flipkart for seamless user interaction.
 
-
-
-
 ## Usage
 
 To view the project locally, you can clone this repository using the following command:
-
 
 Then, navigate to the project directory and open the `index.html` file in a web browser.
 
